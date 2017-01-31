@@ -3,6 +3,10 @@
 There is plenty of material on the web! In particular, you can check out the
 [[https://github.com/OpenScienceCourse-JyU-2015/courseMaterial/blob/master/day-02-pm_version-control/version-control-with-git.md][course from the Open Science workshop]].
 
+You will be at ease with Git basics after this session, but not everything can
+be taught in less than two hours. The main aim of this session is to give you
+an appetite for going further with Git and collaborative R code development!
+
 Etherpad link for this session: https://etherpad.wikimedia.org/p/zzjtwkdggughtezd
 
 * A primer with Git, outside RStudio
@@ -29,4 +33,36 @@ directly in the terminal.
 * Using Git with RStudio
 
 We are now going to use Git to version control an R project with RStudio.
+
+** Set up your project
+
+- Let's create a folder =moominland-demography=. This is our project folder.
+- RStudio can provide the interface between your R project and Git, but we have
+  to tell RStudio where to find Git. Go to =Tools= > =Global options= >
+  =Git/SVN= and check the options there.
+- You can also check out the [[https://support.rstudio.com/hc/en-us/articles/200532077?version=1.0.136&mode=desktop][links]] provided there.
+- Try to set up version control for your project: =Tools= > =Version control= >
+  =Project setup=
+- RStudio complains: you can only use version control with RStudio for RStudio
+  projects. Note that outside RStudio, you can use Git for whatever you want.
+- Let's create a new project: =File= > =New project= > =Existing directory= and
+  select the =moominland-demography= folder.
+- Now you can go back to =Tools= > =Version control= > =Project setup= and
+  select =Git= as your version control system.
+- Lo and behold, there is a new tab next to the =History= tab!
+
+** Using Git basics with your new project
+
+Live session illustrating how to:
+- add
+- commit
+- view history
+- diff
+- revert
+- branch
+- merge
+
+* One step towards wizardry: collaborative workflow
+
+
 
