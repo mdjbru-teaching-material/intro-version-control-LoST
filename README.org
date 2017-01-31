@@ -1,0 +1,32 @@
+#+TITLE: Introduction to version control with Git and RStudio
+
+There is plenty of material on the web! In particular, you can check out the
+[[https://github.com/OpenScienceCourse-JyU-2015/courseMaterial/blob/master/day-02-pm_version-control/version-control-with-git.md][course from the Open Science workshop]].
+
+Etherpad link for this session: https://etherpad.wikimedia.org/p/zzjtwkdggughtezd
+
+* A primer with Git, outside RStudio
+
+To get a feeling of how it is to work with Git, let's first do some work
+directly in the terminal.
+
+**  Check that Git is installed on your computer
+
+- Open a terminal
+- Type:
+  #+BEGIN_SRC 
+  git --version
+  # git version 1.8.3.1
+  #+END_SRC
+  If you get an error message, install Git!
+
+** Hands-on with Git
+
+- Create a test folder for a dummy project and go there.
+- Do the practicals as described in sections 2.3 to 5 in the [[https://github.com/OpenScienceCourse-JyU-2015/courseMaterial/blob/master/day-02-pm_version-control/version-control-with-git.md][Open Science
+  course]].
+
+* Using Git with RStudio
+
+We are now going to use Git to version control an R project with RStudio.
+
